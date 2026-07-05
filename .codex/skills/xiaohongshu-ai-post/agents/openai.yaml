@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xiaohongshu AI Post"
+  short_description: "Turn AI articles into Rednote carousel drafts"
+  default_prompt: "Use $xiaohongshu-ai-post to turn this AI article into a Xiaohongshu carousel Markdown artifact."
