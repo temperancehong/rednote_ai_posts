@@ -92,6 +92,8 @@ Use this structure when saving a Xiaohongshu AI post artifact.
 
 - Use short lines, not long paragraphs.
 - Keep each image focused on one idea.
+- Target about 80-180 characters of visible copy per image; avoid going over 220 unless the user explicitly wants text-heavy cards.
+- Move definitions, nuance, and examples into the caption when a page gets crowded.
 - Use plain Chinese for explanations and keep English technical terms only when useful.
 - Do not overclaim beyond the source.
 - Put attribution and dates in metadata, not repeatedly in the image copy.

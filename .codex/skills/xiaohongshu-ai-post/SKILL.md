@@ -25,7 +25,9 @@ Turn AI and technology source material into a Chinese Xiaohongshu carousel draft
    - Default to 7-10 images unless the user asks for a different count.
    - Use one point per image.
    - Make 图 1 a strong cover, 图 2 a concise definition or contrast, middle images the structure/use case, and the last image the caution or takeaway.
-   - Keep image text short enough for a mobile graphic: short lines, no dense paragraphs, no citations inside image copy unless requested.
+   - Treat each image as a short card, not an explainer page. Target about 80-180 characters of visible copy per image, with 220 characters as a practical upper bound.
+   - If a point needs more room, split it into another image or move the explanation into the caption.
+   - Use short lines, no dense paragraphs, and no citations inside image copy unless requested.
 
 4. Write in Xiaohongshu style.
    - Use Chinese as the main language.
@@ -48,6 +50,7 @@ Turn AI and technology source material into a Chinese Xiaohongshu carousel draft
 
 - The post explains the idea without assuming the reader has read the original.
 - Each image has one clear job.
+- Each image is short enough to fit comfortably on a Xiaohongshu graphic; dense explanations belong in the caption.
 - The carousel includes the source's caution or limitation, not only the exciting part.
 - The artifact metadata includes draft date and original source details.
 - The caption sounds natural for Xiaohongshu and includes relevant hashtags.
