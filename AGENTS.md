@@ -20,7 +20,7 @@ When asked to create or revise a Xiaohongshu post:
 3. Preserve source metadata in the artifact: title, author, original link, original publish date, draft date, source language, and draft language.
 4. Save carousel drafts in `artifacts/` using `YYYY-MM-DD-topic-slug-rednote.md`; save long articles using `YYYY-MM-DD-topic-slug-longform-rednote.md`.
 5. For carousel drafts, keep one clear point per image section.
-6. For long articles, use natural section headings and do not apply carousel card character limits.
+6. For long articles, use natural H2 section headings only; RedNote direct import does not recognize H3 headings.
 7. Include title options, caption or body copy, and hashtags.
 
 ## Writing Style

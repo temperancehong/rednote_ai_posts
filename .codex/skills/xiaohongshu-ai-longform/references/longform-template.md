@@ -31,11 +31,11 @@ Use this structure when saving a Xiaohongshu/RedNote long article draft.
 
 ## 正文
 
-### <natural section heading>
+## <natural section heading>
 
 <Chinese longform body. Keep important AI terms in English.>
 
-### <natural section heading>
+## <natural section heading>
 
 <Continue with source-grounded explanation, personal reading judgment, and caveats.>
 
@@ -57,6 +57,7 @@ Use this structure when saving a Xiaohongshu/RedNote long article draft.
 ## Style Checks
 
 - Does the opening begin near the article, not with a generic AI trend hook?
+- Does the artifact use only H1/H2 headings so RedNote import recognizes every section?
 - Does each heading move the reader forward instead of repeating the first line?
 - Are the user's reading notes visible in the angle and emphasis?
 - Are English AI terms preserved only where they clarify the concept?

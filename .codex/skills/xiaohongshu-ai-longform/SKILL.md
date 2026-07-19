@@ -26,6 +26,7 @@ Turn AI/tech source material into a Chinese RedNote long article that reads like
    - Read [references/longform-template.md](references/longform-template.md) before saving.
    - Save to `artifacts/YYYY-MM-DD-<topic-slug>-longform-rednote.md`.
    - Include metadata, 3-5 title options, sectioned body, optional closing lines, and hashtags.
+   - Use only Markdown H1 and H2 headings because RedNote direct import recognizes only heading 1 and heading 2. Use H1 for the artifact title and H2 for metadata, title options, body sections, closing lines, and hashtags. Do not emit H3 or deeper headings.
    - Do not use carousel conventions: no `图 1`, no one-point-per-image structure, and no image/card character limits.
 
 4. Write in a natural RedNote reading-note voice.
