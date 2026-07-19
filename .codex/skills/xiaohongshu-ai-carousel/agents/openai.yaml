@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xiaohongshu AI Carousel"
+  short_description: "Turn AI sources into RedNote carousel drafts"
+  default_prompt: "Use $xiaohongshu-ai-carousel to turn this AI article into a Xiaohongshu carousel Markdown artifact."

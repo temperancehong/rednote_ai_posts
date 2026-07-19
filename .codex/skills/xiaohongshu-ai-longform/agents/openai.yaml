@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xiaohongshu AI Longform"
+  short_description: "Draft natural RedNote long articles from AI sources"
+  default_prompt: "Use $xiaohongshu-ai-longform to turn these notes and source article into a natural Chinese RedNote long article."

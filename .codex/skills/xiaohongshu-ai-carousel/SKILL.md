@@ -1,13 +1,13 @@
 ---
-name: xiaohongshu-ai-post
-description: Create Chinese Xiaohongshu (Rednote) carousel post drafts from AI or technology articles, essays, notes, links, or source text. Use when the user asks to turn an article, blog post, paper, notes, or link into a Xiaohongshu/小红书/Rednote post, one-point-per-image carousel, Chinese caption, hashtags, or a Markdown artifact with title, draft date, original link, author, and original publish date.
+name: xiaohongshu-ai-carousel
+description: Create Chinese Xiaohongshu/RedNote short carousel drafts from AI or technology articles, papers, notes, links, or source text. Use when Codex needs to turn source material into a one-point-per-image carousel, short image copy, Chinese caption, title options, hashtags, and a Markdown artifact with source metadata. Do not use for RedNote long articles; use xiaohongshu-ai-longform for longform posts.
 ---
 
-# Xiaohongshu AI Post
+# Xiaohongshu AI Carousel
 
 ## Overview
 
-Turn AI and technology source material into a Chinese Xiaohongshu carousel draft. Preserve the source's main idea and caveats, but rewrite it as short, copy-ready image text with accurate attribution.
+Turn AI and technology source material into a Chinese Xiaohongshu/RedNote carousel draft. Preserve the source's main idea and caveats, but rewrite it as short, copy-ready image text with accurate attribution.
 
 ## Workflow
 
@@ -25,9 +25,11 @@ Turn AI and technology source material into a Chinese Xiaohongshu carousel draft
    - Default to 7-10 images unless the user asks for a different count.
    - Use one point per image.
    - Make 图 1 a strong cover, 图 2 a concise definition or contrast, middle images the structure/use case, and the last image the caution or takeaway.
-   - Treat each image as a short card, not an explainer page. Target about 80-180 characters of visible copy per image, with 220 characters as a practical upper bound.
+   - Treat the carousel as short cards, not explainer pages. Enforce two visible-copy limits by default: no single image over 80 characters, and all image copy together under 500 characters. Exclude metadata, section headings, caption, title options, and hashtags from this count.
+   - For a 7-10 image carousel, aim for roughly 40-70 visible characters per image so the total budget has room to breathe.
    - If a point needs more room, split it into another image or move the explanation into the caption.
    - Use short lines, no dense paragraphs, and no citations inside image copy unless requested.
+   - If the user asks for a long article, reading-note essay, or no card/image character limits, stop using this skill and use `$xiaohongshu-ai-longform` instead.
 
 4. Write in Xiaohongshu style.
    - Use Chinese as the main language.
@@ -50,7 +52,9 @@ Turn AI and technology source material into a Chinese Xiaohongshu carousel draft
 
 - The post explains the idea without assuming the reader has read the original.
 - Each image has one clear job.
-- Each image is short enough to fit comfortably on a Xiaohongshu graphic; dense explanations belong in the caption.
+- Each image stays under 80 visible characters unless the user explicitly asks for text-heavy cards.
+- The total visible image copy stays under 500 characters unless the user explicitly asks for text-heavy cards.
+- Dense explanations belong in the caption, not on the images.
 - The carousel includes the source's caution or limitation, not only the exciting part.
 - The artifact metadata includes draft date and original source details.
 - The caption sounds natural for Xiaohongshu and includes relevant hashtags.
